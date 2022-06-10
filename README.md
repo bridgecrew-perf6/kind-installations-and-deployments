@@ -168,7 +168,7 @@ nodes:
 ```
 
 Execute the following command to create the cluster
-``
+```
 kind create cluster --config kind-multi-node-clusters-config.yaml --name kind-ha
 ```
 
