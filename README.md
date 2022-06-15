@@ -44,7 +44,7 @@ From: https://www.edx.org/course/introduction-to-kubernetes
 
 Just like kind, minikube is another tool that lets you run Kubernetes locally. minikube runs a single-node Kubernetes cluster on your personal computer (including Windows, macOS and Linux PCs) so that you can try out Kubernetes, or for daily development work.
 
-From: https://kubernetes.io/docs/tasks/tools/
+From: https://kubernetes.io/docs/tasks/tools/ <br>
 --------------------------------------------------------------------------------------------------------------------------------------- <br>
 --------------------------------------------------------------------------------------------------------------------------------------- <br>
 
@@ -400,7 +400,7 @@ nodes:
 - role: control-plane
 - role: worker
 - role: worker
-``
+```
 “kubectl api-versions” is referring to the api for specific containers and nodes, which are within the kubernetes clusters:
 --------------------------------------------------------------------------------------------------------------------------------------- <br>
 --------------------------------------------------------------------------------------------------------------------------------------- <br>
