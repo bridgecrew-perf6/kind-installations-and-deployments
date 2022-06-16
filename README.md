@@ -365,7 +365,7 @@ Use kubectl to do it:
 3. Run crictl images to see images loaded on that node. <br>
 From: https://stackoverflow.com/questions/60487792/kind-cluster-how-to-see-docker-images-that-are-loaded
 
-### Does control plane nodes have kube-proxy and kubectl too ?
+### Does control plane nodes have kube-proxy and kubelet too ?
 •	No, they don’t
 
 ### quorum:
